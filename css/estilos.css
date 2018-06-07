@@ -10,6 +10,10 @@
 
 /*----------------INDEX-----------------*/
 
+.openclose{
+  display: none;
+}
+
 nav{
  margin-top: 2%;
  margin-left: 5%;

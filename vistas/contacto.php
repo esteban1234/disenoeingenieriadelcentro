@@ -15,11 +15,15 @@
     <div class="logo pull-right">
       <img src="../img/diseno.png" class="img-responsive" alt="DISEÑO">
     </div>
+
+    <div class="openclose">
+          <i class="fa fa-bars open" aria-hidden="true"></i>
+        </div> 
   </div>
 
 <div class="banner4">
   <div class="fondo4">
-    <h1>CONTACTO</h1>
+    <h1 class="tit-cont">CONTACTO</h1>
   </div>
 </div>
 <div class="mapa">
@@ -30,50 +34,50 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1 class="text-center">Datos de Contacto</h1>
+            <h1 class="text-center tit-dc">Datos de Contacto</h1>
             <p class="text-center">DISEÑO E INGENIERIA DEL CENTRO S.A.P.I. de C.V.</p>
           </div>
         </div> <br><br>
         <div class="row">
-          <div class="col-md-2" style="text-align: right;">
+          <div class="col-sm-2 col-md-2 cont-ico" style="text-align: right;">
             <!-- <div class="iconos"> -->
-              <span class="fa-stack fa-4x">
+              <span class="fa-stack fa-4x cont-i">
                 <i class="fa fa-circle fa-stack-2x ii"></i>
                 <i class="fas fa-map-marker-alt fa-stack-1x fa-inverse iii"></i>
               </span>
             <!-- </div> -->
           </div>
-          <div class="col-md-4">
-            <h3 class="text-left">Dirección</h3>
-            <p class="text-left">C. 39B #225 por 32A y 32 Col. La Castellana, Mérida, Yucatan. C.P 97203</p>
+          <div class="col-sm-4 col-md-4">
+            <h3 class="text-left tit-dthc">Dirección</h3>
+            <p class="text-left txt-dthc">C. 39B #225 por 32A y 32 Col. La Castellana, Mérida, Yucatan. C.P 97203</p>
           </div>
-          <div class="col-md-2" style="text-align: right;">
+          <div class="col-sm-2 col-md-2 cont-ico" style="text-align: right;">
             <!-- <div class="iconos"> -->
-              <span class="fa-stack fa-4x">
+              <span class="fa-stack fa-4x cont-i">
                 <i class="fa fa-circle fa-stack-2x ii"></i>
                 <i class="fas fa-phone-volume fa-stack-1x fa-inverse iii"></i>
               </span>
             <!-- </div> -->
           </div>
-          <div class="col-md-4">
-            <h3 class="text-left">Teléfono</h3>
-            <p class="text-left">PENDIENTE</p>
+          <div class="col-sm-4 col-md-4">
+            <h3 class="text-left tit-dthc">Teléfono</h3>
+            <p class="text-left txt-dthc">PENDIENTE</p>
           </div>
         </div> <br><br>
         <div class="row">
-          <div class="col-md-2" style="text-align: right;">
+          <div class="col-sm-2 col-md-2 cont-ico" style="text-align: right;">
             <!-- <div class="iconos"> -->
-              <span class="fa-stack fa-4x">
+              <span class="fa-stack fa-4x cont-i">
                 <i class="fa fa-circle fa-stack-2x ii"></i>
                 <i class="fas fa-clock fa-stack-1x fa-inverse iii"></i>
               </span>
             <!-- </div> -->
           </div>
-          <div class="col-md-4">
-            <h3 class="text-left">Horario</h3>
-            <p class="text-left">Lunes a Viernes de 9 am a 6 pm.</p>
+          <div class="col-sm-4 col-md-4">
+            <h3 class="text-left tit-dthc">Horario</h3>
+            <p class="text-left txt-dthc">Lunes a Viernes de 9 am a 6 pm.</p>
           </div>
-          <div class="col-md-2" style="text-align: right;">
+          <div class="col-sm-2 col-md-2 cont-ico" style="text-align: right;">
             <!-- <div class="iconos"> -->
               <span class="fa-stack fa-4x">
                 <i class="fa fa-circle fa-stack-2x ii"></i>
@@ -81,9 +85,9 @@
               </span>
             <!-- </div> -->
           </div>
-          <div class="col-md-4 text-center">
-            <h3 class="text-left">Correo</h3>
-            <p class="text-left">info@disenoeingenieriadelcentro.com</p>
+          <div class="col-sm-4 col-md-4 text-center">
+            <h3 class="text-left tit-dthc">Correo</h3>
+            <p class="text-left txt-dthc">info@disenoeingenieriadelcentro.com</p>
           </div>
         </div>
       </div>
@@ -93,25 +97,25 @@
 
                 <div class="contact-form">
                   
-                    <form id="contact-us" method="post" action="#">
+                    <form id="contact-us" method="post" action="#" onSubmit="return false">
 
-                        <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+                        <div class="col-xs-12 col-sm-6 col-md-6 wow animated slideInLeft" data-wow-delay=".5s">
                 
-                            <input type="text" name="name" id="name" required="required" class="form" placeholder="Nombre" />
+                            <input type="text" name="name" id="txtNOMBRE" required="required" class="form" placeholder="Nombre" />
 
-                            <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Correo" />
+                            <input type="email" name="mail" id="txtCORREO" required="required" class="form" placeholder="Correo" />
 
-                            <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Teléfono" />
+                            <input type="tel" name="subject" id="txtTELEFONO" required="required" class="form" placeholder="Teléfono" />
                         </div>
                       
-                        <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+                        <div class="col-xs-12 col-sm-6 col-md-6 wow animated slideInRight" data-wow-delay=".5s">
                            
-                            <textarea name="message" id="message" class="form textarea"  placeholder="Comentario"></textarea>
+                            <textarea name="message" id="txtCOMENTARIO" class="form textarea"  placeholder="Comentario"></textarea>
                         </div>
-                       
+                        
                         <div class="relative fullwidth col-xs-12">
-                  
-                            <button type="submit" id="submit" name="submit" class="form-btn semibold">Enviar</button> 
+                            <div id="_AJAX_PRE_"></div>
+                            <button type="submit" id="submit" name="submit" class="form-btn semibold" onclick="sendCORREO()">Enviar</button> 
                         </div>
                      
                         <div class="clear"></div>

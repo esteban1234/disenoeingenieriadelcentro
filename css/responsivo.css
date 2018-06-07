@@ -1,0 +1,753 @@
+@media screen and (max-width: 480px){
+/*******************INCIA INDEX****************************/
+
+	nav{
+		border-left: 10px solid #641E16; 
+		border-bottom: 10px solid #641E16; 
+		float: none !important;
+		position: fixed;
+		z-index: 3;
+		margin: 0px;
+		top: 0px;
+		right: 0px;
+		width: 80%;
+		background: #62130D;
+		display: none;
+	}
+
+	nav ul .selector{
+		display: block;
+		color: #fff !important;
+		text-align: center;
+		border-bottom: .5px solid rgba(255,255,255, 0.2);
+	}
+	
+
+	.openclose{
+		position: fixed;
+		border: 3px solid #641E16; 
+		background: #62130D;
+		color: #fff;
+		padding: 5px 10px;
+		z-index: 3;
+		font-size: 20px !important;
+		cursor: pointer;
+		top: 5px;
+		left: 7px;
+		display: block;
+	}
+
+	.logo{
+		width:80px;
+		float: none !important;
+		margin: auto;
+	}
+
+
+	.banner, .fondo, .banner2, .fondo2, .bannern, .fondon,
+	.banner3, .fondo3, .banner4, .fondo4{
+		height: 100%;
+	}
+
+	.fondo, .fondo2{
+		background:rgba(255,255,255, 0.5);
+	}
+
+	.ci{
+		font-size: 26px !important;
+		font-weight: bold;
+	}
+
+	.boton{
+		margin-bottom: 10px;
+	}
+
+	.btn-s{
+		background-color: #FF5733;
+	}
+
+	.btn-s:hover{
+		background-color: none;
+	}
+
+	.cont-wel{
+	}
+
+	.cont-wel .row{
+		width: 100%;
+		margin: auto !important;
+	}
+
+	.wel{
+		text-align: center;
+		font-size: 23px;
+		font-weight: bold;
+	}
+
+	.txt-wel{
+		text-align: justify;
+		padding: 0px 20px;
+		font-size: 17px;
+	}
+
+
+	.iconos{
+		font-size: 10px;
+	}
+
+	.tit-pdes, .tit-dvv{
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	.txt-dvv{
+		text-align: justify;
+	}
+
+	.btn-oculto{
+		display: none;
+	}
+/*******************END INDEX******************************/
+
+/*******************INCIA NOSOTROS****************************/
+	.tit-ecc{
+		/*border: 2px solid red;*/
+		font-size: 25px !important;
+		width: 90% !important;
+		float: none !important;
+		margin: 10px auto !important;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.txt-ecc{
+		text-align: center;
+		font-size: 22px !important;
+	}
+
+	.cont-an .row{
+		width: 100%;
+		margin: auto;
+	}
+
+	.tit-an{
+		font-size: 21px !important;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.txt-an{
+		text-align: justify;
+		padding: 0px 15px;
+		font-size: 16px;
+	}
+
+	.bannern {
+    	background: #48C9B0;
+	}
+
+	.cuadron{
+		background: none;
+		height: 100%;
+	}
+
+
+	.tit-mvp{
+		font-size: 23px;
+		font-weight: bold;
+	}
+
+
+	.txt-mvp{
+		text-align: justify;
+		font-size: 16px;
+	}
+/*******************END NOSOTROS******************************/
+
+
+/*******************INCIA SERVICIOS****************************/
+	.tit-cce{
+		/*border: 2px solid red;*/
+		font-size: 26px !important;
+	}
+
+	.txt-dic{
+		font-size: 18px !important;
+	}
+
+	.tit-s{
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.img1 p, .img2 p, .img3 p, .img4 p{
+ 		/*border: 2px solid red;*/
+ 		width: 100%;
+ 		margin: auto;
+ 		font-size: 25px;
+	}
+
+	.sect-del{
+		display: none;
+	}
+
+	.texto{
+		text-align: justify;
+		margin: 20px auto;
+	}
+/*******************END SERVICIOS******************************/
+
+
+/*******************INCIA CONTACTO****************************/
+	.tit-cont{
+		font-size: 26px !important;
+		font-weight: bold; 
+		padding: 15px 0px;
+	}
+
+	.tit-dc{
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.cont-ico{
+		text-align: center !important;
+	}
+
+	.cont-i{
+		/*border: 2px solid red;*/
+		/*margin: auto;*/
+	}
+
+	.tit-dthc{
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.txt-dthc{
+		text-align: center;
+	}
+/*******************END CONTACTO******************************/
+
+/*******************INCIA FOOTER****************************/
+	footer{
+		/*border: 2px solid red;*/
+		height: 100%;
+	}
+
+	footer p{
+		/*border: 2px solid yellow;*/
+		padding: 0px 10px;
+		font-size: 18px;
+	}
+/*******************END FOOTER******************************/
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+/*******************INCIA INDEX****************************/
+
+	nav{
+		border-left: 10px solid #641E16; 
+		border-bottom: 10px solid #641E16; 
+		float: none !important;
+		position: fixed;
+		z-index: 3;
+		margin: 0px;
+		top: 0px;
+		right: 0px;
+		width: 80%;
+		background: #62130D;
+		display: none;
+	}
+
+	nav ul .selector{
+		display: block;
+		color: #fff !important;
+		text-align: center;
+		border-bottom: .5px solid rgba(255,255,255, 0.2);
+	}
+	
+
+	.openclose{
+		position: fixed;
+		border: 3px solid #641E16; 
+		background: #62130D;
+		color: #fff;
+		padding: 5px 10px;
+		z-index: 3;
+		font-size: 20px !important;
+		cursor: pointer;
+		top: 5px;
+		left: 7px;
+		display: block;
+	}
+
+	.logo{
+		width:100px;
+		float: none !important;
+		margin: auto;
+	}
+
+
+	.banner, .fondo, .banner2, .fondo2, .bannern, .fondon,
+	.banner3, .fondo3, .banner4, .fondo4{
+		height: 100%;
+	}
+
+	.fondo, .fondo2{
+		background:rgba(255,255,255, 0.5);
+	}
+
+	.ci{
+		font-size: 26px !important;
+		font-weight: bold;
+	}
+
+	.boton{
+		margin-bottom: 10px;
+	}
+
+	.btn-s{
+		background-color: #FF5733;
+	}
+
+	.btn-s:hover{
+		background-color: none;
+	}
+
+	.cont-wel{
+	}
+
+	.cont-wel .row{
+		width: 100%;
+		margin: auto !important;
+	}
+
+	.wel{
+		text-align: center;
+		font-size: 23px;
+		font-weight: bold;
+	}
+
+	.txt-wel{
+		text-align: justify;
+		padding: 0px 20px;
+		font-size: 17px;
+	}
+
+
+	.iconos{
+		font-size: 10px;
+	}
+
+	.tit-pdes, .tit-dvv{
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	.txt-dvv{
+		text-align: justify;
+	}
+
+	.btn-oculto{
+		display: none;
+	}
+/*******************END INDEX******************************/
+
+/*******************INCIA NOSOTROS****************************/
+	.tit-ecc{
+		/*border: 2px solid red;*/
+		font-size: 25px !important;
+		width: 90% !important;
+		float: none !important;
+		margin: 10px auto !important;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.txt-ecc{
+		text-align: center;
+		font-size: 22px !important;
+	}
+
+	.cont-an .row{
+		width: 100%;
+		margin: auto;
+	}
+
+	.tit-an{
+		font-size: 21px !important;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.txt-an{
+		text-align: justify;
+		padding: 0px 15px;
+		font-size: 16px;
+	}
+
+	.bannern {
+    	background: #48C9B0;
+	}
+
+	.cuadron{
+		background: none;
+		height: 100%;
+	}
+
+
+	.tit-mvp{
+		font-size: 23px;
+		font-weight: bold;
+	}
+
+
+	.txt-mvp{
+		text-align: justify;
+		font-size: 16px;
+	}
+/*******************END NOSOTROS******************************/
+
+
+/*******************INCIA SERVICIOS****************************/
+	.tit-cce{
+		/*border: 2px solid red;*/
+		font-size: 26px !important;
+	}
+
+	.txt-dic{
+		font-size: 18px !important;
+	}
+
+	.tit-s{
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.img1 p, .img2 p, .img3 p, .img4 p{
+ 		/*border: 2px solid red;*/
+ 		width: 100%;
+ 		margin: auto;
+ 		font-size: 25px;
+	}
+
+	.sect-del{
+		display: none;
+	}
+
+	.texto{
+		text-align: justify;
+		margin: 20px auto;
+	}
+/*******************END SERVICIOS******************************/
+
+
+/*******************INCIA CONTACTO****************************/
+	.tit-cont{
+		font-size: 26px !important;
+		font-weight: bold; 
+		padding: 15px 0px;
+	}
+
+	.tit-dc{
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.cont-ico{
+		text-align: center !important;
+	}
+
+	.cont-i{
+		/*border: 2px solid red;*/
+		/*margin: auto;*/
+	}
+
+	.tit-dthc{
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.txt-dthc{
+		text-align: center;
+	}
+/*******************END CONTACTO******************************/
+
+/*******************INCIA FOOTER****************************/
+	footer{
+		/*border: 2px solid red;*/
+		height: 100%;
+	}
+
+	footer p{
+		/*border: 2px solid yellow;*/
+		padding: 0px 10px;
+		font-size: 18px;
+	}
+/*******************END FOOTER******************************/
+
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+	/*******************INCIA INDEX****************************/
+
+	nav{
+		border-left: 10px solid #641E16; 
+		border-bottom: 10px solid #641E16; 
+		float: none !important;
+		position: fixed;
+		z-index: 3;
+		margin: 0px;
+		top: 0px;
+		right: 0px;
+		width: 80%;
+		background: #62130D;
+		display: none;
+	}
+
+	nav ul .selector{
+		display: block;
+		color: #fff !important;
+		text-align: center;
+		border-bottom: .5px solid rgba(255,255,255, 0.2);
+	}
+	
+
+	.openclose{
+		position: fixed;
+		border: 3px solid #641E16; 
+		background: #62130D;
+		color: #fff;
+		padding: 5px 10px;
+		z-index: 3;
+		font-size: 20px !important;
+		cursor: pointer;
+		top: 5px;
+		left: 7px;
+		display: block;
+	}
+
+	.logo{
+		width:120px;
+		float: none !important;
+		margin: auto;
+	}
+
+
+	.banner, .fondo, .banner2, .fondo2, .bannern, .fondon,
+	.banner3, .fondo3, .banner4, .fondo4{
+		height: 100%;
+	}
+
+	.fondo, .fondo2{
+		background:rgba(255,255,255, 0.5);
+	}
+
+	.ci{
+		font-size: 26px !important;
+		font-weight: bold;
+	}
+
+	.boton{
+		margin-bottom: 10px;
+	}
+
+	.btn-s{
+		background-color: #FF5733;
+	}
+
+	.btn-s:hover{
+		background-color: none;
+	}
+
+	.cont-wel{
+	}
+
+	.cont-wel .row{
+		width: 100%;
+		margin: auto !important;
+	}
+
+	.wel{
+		text-align: center;
+		font-size: 23px;
+		font-weight: bold;
+	}
+
+	.txt-wel{
+		text-align: justify;
+		padding: 0px 20px;
+		font-size: 17px;
+	}
+
+
+	.iconos{
+		font-size: 13px;
+	}
+
+	.tit-pdes, .tit-dvv{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.txt-dvv{
+		text-align: justify;
+	}
+
+	.btn-oculto{
+		display: none;
+	}
+/*******************END INDEX******************************/
+
+/*******************INCIA NOSOTROS****************************/
+	.tit-ecc{
+		/*border: 2px solid red;*/
+		font-size: 25px !important;
+		width: 90% !important;
+		float: none !important;
+		margin: 10px auto !important;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.txt-ecc{
+		text-align: center;
+		font-size: 22px !important;
+	}
+
+	.cont-an .row{
+		width: 100%;
+		margin: auto;
+	}
+
+	.tit-an{
+		font-size: 21px !important;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.txt-an{
+		text-align: justify;
+		padding: 0px 15px;
+		font-size: 16px;
+	}
+
+	.bannern {
+    	background: #48C9B0;
+	}
+
+	.cuadron{
+		background: none;
+		height: 100%;
+	}
+
+
+	.tit-mvp{
+		font-size: 23px;
+		font-weight: bold;
+	}
+
+
+	.txt-mvp{
+		text-align: justify;
+		font-size: 16px;
+	}
+/*******************END NOSOTROS******************************/
+
+
+/*******************INCIA SERVICIOS****************************/
+	.tit-cce{
+		/*border: 2px solid red;*/
+		font-size: 26px !important;
+	}
+
+	.txt-dic{
+		font-size: 18px !important;
+	}
+
+	.tit-s{
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.img1 p, .img2 p, .img3 p, .img4 p{
+ 		/*border: 2px solid red;*/
+ 		width: 100%;
+ 		margin: auto;
+ 		font-size: 25px;
+	}
+
+	.sect-del{
+		display: none;
+	}
+
+	.texto{
+		text-align: justify;
+		margin: 20px auto;
+	}
+/*******************END SERVICIOS******************************/
+
+
+/*******************INCIA CONTACTO****************************/
+	.tit-cont{
+		font-size: 26px !important;
+		font-weight: bold; 
+		padding: 15px 0px;
+	}
+
+	.tit-dc{
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.cont-ico{
+		text-align: center !important;
+	}
+
+	.cont-i{
+		/*border: 2px solid red;*/
+		/*margin: auto;*/
+	}
+
+	.tit-dthc{
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.txt-dthc{
+		text-align: center;
+	}
+/*******************END CONTACTO******************************/
+
+/*******************INCIA FOOTER****************************/
+	footer{
+		/*border: 2px solid red;*/
+		height: 100%;
+	}
+
+	footer p{
+		/*border: 2px solid yellow;*/
+		padding: 0px 10px;
+		font-size: 18px;
+	}
+/*******************END FOOTER******************************/
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+	.img1 p, .img2 p, .img3 p, .img4 p{
+ 	
+ 		width: 100%;
+ 		/*margin: auto;*/
+ 		/*font-size: 25px;*/
+	}
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }
